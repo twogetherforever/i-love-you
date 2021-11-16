@@ -1,0 +1,184 @@
+#typeDiv {
+  position: absolute;
+  top: 30%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 10%;
+  text-align: center;
+}
+
+#txt1 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+}
+#txt2 {
+  font-size: 18px;
+  text-align: center;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+
+#content {
+  position: absolute;
+  top: 1%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 20%;
+}
+
+#together {
+  font-size: 25px;
+  text-align: center;
+  color: white;
+}
+
+#timer {
+  text-align: center;
+  color: white;
+  background: rgb(255, 57, 128);
+}
+
+#d {
+  font-size: 19px;
+}
+
+#h {
+  font-size: 19px;
+}
+
+#m {
+  font-size: 19px;
+}
+
+#s {
+  font-size: 19px;
+}
+
+#heartTxt {
+  position: absolute;
+  display: table;
+  vertical-align: middle;
+  top: 70%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 25%;
+  height: 10%;
+}
+
+#clickMe {
+  display: inline-block;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#heart {
+  width: 100%;
+  height: 100%;
+}
+
+#button {
+  background-image: url("../pic/love.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  background-position: center;
+  transition: 0.1s;
+  width: 100%;
+  height: 100%;
+}
+
+#button:active {
+  width: 92%;
+  height: 92%;
+}
+
+#imgTxt {
+  position: absolute;
+  display: table;
+  vertical-align: middle;
+  top: 20%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 100%;
+  height: 50%;
+}
+
+#img {
+  display: block;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: auto;
+  height: 100%;
+}
+
+#Txt {
+  display: inline-block;
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#tmp {
+  display: inline-block;
+  font-size: 17px;
+  width: 100%;
+  text-align: center;
+  color: white;
+}
+
+#mask {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 99990;
+}
+
+#popup {
+  display: none;
+  position: fixed;
+  width: 500px;
+  height: 100px;
+  left: 50%;
+  top: 50%;
+  margin-left: -250px;
+  margin-top: -50px;
+  z-index: 99999;
+  background: #ff033e;
+  padding: 20px;
+  text-align: center;
+  border-radius: 15px;
+  color: #fff;
+  font-size: 16px;
+}
+
+#cross {
+  width: 20px;
+  height: 20px;
+  border: solid 2px #fff;
+  border-radius: 50%;
+  position: absolute;
+  right: -10px;
+  top: -10px;
+  background: #fff;
+  color: #ff033e;
+  font-weight: 700;
+  cursor: pointer;
+}
