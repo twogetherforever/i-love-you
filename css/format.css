@@ -154,11 +154,11 @@
 #popup {
   display: none;
   position: fixed;
-  width: 500px;
+  width: 350px;
   height: 100px;
   left: 50%;
   top: 50%;
-  margin-left: -250px;
+  margin-left: -175px;
   margin-top: -50px;
   z-index: 99999;
   background: #ff033e;
